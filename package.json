@@ -1,0 +1,33 @@
+{
+  "name": "tarot",
+  "version": "1.0.0",
+  "description": "🔮 A beautiful terminal tarot card reader with ASCII art, multiple spreads, and detailed interpretations. Zero dependencies.",
+  "main": "src/index.js",
+  "bin": {
+    "tarot": "./bin/tarot.js"
+  },
+  "scripts": {
+    "start": "node bin/tarot.js",
+    "test": "node bin/tarot.js --daily"
+  },
+  "keywords": [
+    "tarot",
+    "terminal",
+    "cli",
+    "ascii-art",
+    "fortune",
+    "divination",
+    "cards",
+    "ansi",
+    "zero-dependencies"
+  ],
+  "author": "nadonghuang",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nadonghuang/tarot.git"
+  }
+}
